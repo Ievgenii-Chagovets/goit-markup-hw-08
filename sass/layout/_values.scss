@@ -1,0 +1,38 @@
+.values {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.values__list {
+  display: flex;
+}
+.values__item {
+  width: 270px;
+  height: 251px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.values__icon {
+  display: flex;
+  background-color: rgba(245, 244, 250, 1);
+  margin-bottom: 30px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.values__name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding-bottom: 10px;
+}
+.values__description {
+  font-family: "Roboto";
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

@@ -1,0 +1,118 @@
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-clients__text {
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.our-clients__list {
+  display: flex;
+}
+.our-clients__item {
+  display: flex;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &:hover {
+    border-color: #2196f3;
+    cursor: pointer;
+  }
+}
+.our-clients__ya-co-company-icon {
+  fill: #afb1b8;
+  width: 41px;
+  height: 46.7px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__tagline-here-company-icon {
+  fill: #afb1b8;
+  width: 40px;
+  height: 52px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__company-icon {
+  fill: #afb1b8;
+  width: 43px;
+  height: 41px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__foster-peters-company-icon {
+  fill: #afb1b8;
+  width: 84px;
+  height: 41px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__brand-company-icon {
+  fill: #afb1b8;
+  width: 62px;
+  height: 45px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__tag-line-company-icon {
+  fill: #afb1b8;
+  width: 94px;
+  height: 44px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  .our-clients__icon:hover &,
+  .our-clients__icon:focus & {
+    fill: #2196f3;
+  }
+}
+.our-clients__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
