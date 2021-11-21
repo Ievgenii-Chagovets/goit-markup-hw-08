@@ -26,14 +26,26 @@
         <div class="container">
             <nav class="navigation">
                 <a href="" class="header-logo logo link"><span class="web">Web</span>Studio</a>
-                <button class="mobile-menu-button">
-                    <svg class="" width="40" height="40">
-                        <use href="./images/sprite.svg#icon-close-button"></use>
-                        <use href="./images/sprite.svg#icon-mobile-menu-buttone"></use>
-                    </svg>
-                </button>
-            </nav>
-                <!-- <ul class="navigation-list list">
+                    <!-- <button 
+                    type="button" 
+                    class="mobile-menu__button" 
+                    aria-expanded="false"
+                    aria-controls="mobile-menu__container"
+                    data-menu-button>
+                        <svg class="" width="40" height="40" aria-label="Переключатель мобильного меню">
+                            <use class="icon-menu" href="./images/sprite.svg#icon-mobile-menu-buttone"></use>
+                            <use class="icon-cross" href="./images/sprite.svg#icon-close-button"></use>
+                        </svg>
+                    </button>
+                    <div 
+                    class="mobile-menu__container is-open" 
+                    data-menu
+                    id="mobile-menu__container">
+
+                    </div> -->
+                
+            
+                <ul class="navigation-list list">
                     <li class="navigation-list__item">
                         <a class="navigation-list__link current link" href="">Студия</a>
                     </li>
@@ -68,7 +80,7 @@
                         </a>
                     </li>
                 </ul>
-            </div> -->
+            </div>
         </div>
     </header>
 
@@ -81,7 +93,7 @@
         </section>
 
 
-        <!-- <section class="values">
+        <section class="values">
             <div class="container">
                 <ul class="values__list list">
                     <li class="values__item">
@@ -130,7 +142,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- <section class="our-job">
             <div class="container">
@@ -492,6 +504,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
     
 </body>
 
