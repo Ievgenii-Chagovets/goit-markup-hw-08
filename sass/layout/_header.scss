@@ -13,6 +13,11 @@
   }
 }
 .navigation {
+  @media screen and (min-width: 768px) {
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+  }
   @media screen and (min-width: 1200px) {
     font-family: "Roboto";
     display: flex;
@@ -68,6 +73,12 @@
 //   }
 // }
 .navigation-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    .navigation-list__item:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     .navigation-list__item:not(:last-child) {
@@ -77,7 +88,7 @@
 }
 
 .navigation-list__link {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: block;
     position: relative;
     font-family: "Roboto";
@@ -109,19 +120,23 @@
     }
   }
 }
+@media screen and (min-width: 1200px) {
+}
 
 .contacts {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     font-family: "Roboto";
     display: flex;
     &:hover,
     &:focus {
       color: var(--accent-color);
     }
+    @media screen and (min-width: 1200px) {
+    }
   }
 }
 .contacts-list {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     .contacts-list__item {
       display: flex;
@@ -129,7 +144,7 @@
   }
 }
 .contacts-list__email {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     position: relative;
     display: flex;
     font-family: "Roboto";
@@ -151,7 +166,7 @@
   }
 }
 .contacts-list__icon-email {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
@@ -166,7 +181,7 @@
   }
 }
 .contacts-list__phone {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     font-family: "Roboto";
     font-weight: 500;
@@ -186,7 +201,7 @@
   }
 }
 .contacts-list__icon-phone {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
