@@ -175,13 +175,15 @@ ul {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .contacts-list .contacts-list__item {
-    display: flex;
-  }
+.contacts-list {
+  display: flex;
 }
 
-@media screen and (min-width: 1200px) {
+.contacts-list__item {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
   .contacts-list__email {
     position: relative;
     display: flex;
@@ -203,7 +205,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .contacts-list__icon-email {
     display: inline-block;
     margin-right: 10px;
@@ -219,7 +221,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .contacts-list__phone {
     display: flex;
     font-family: "Roboto";
@@ -239,7 +241,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .contacts-list__icon-phone {
     display: inline-block;
     vertical-align: middle;
