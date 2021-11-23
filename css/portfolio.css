@@ -401,11 +401,13 @@ ul {
   color: var(--second-text-color);
 }
 
-.footer-section {
-  font-family: "Roboto";
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
+@media screen and (min-width: 1200px) {
+  .footer-section {
+    font-family: "Roboto";
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .logo-footer {
