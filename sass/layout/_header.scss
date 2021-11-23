@@ -30,7 +30,9 @@
   color: #2196f3;
 }
 .header-logo {
-  margin-right: 276px;
+  @media screen and (min-width: 480px) {
+    margin-right: 276px;
+  }
   @media screen and (min-width: 768px) {
     margin-right: 88px;
   }
@@ -74,7 +76,11 @@
 //   }
 // }
 .navigation-list {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 768px) {
+    visibility: inherit;
     display: flex;
     .navigation-list__item:not(:last-child) {
       margin-right: 50px;
@@ -89,6 +95,10 @@
 }
 
 .navigation-list__link {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+    visibility: inherit;
+  }
   @media screen and (min-width: 768px) {
     display: block;
     position: relative;
@@ -125,6 +135,10 @@
 }
 
 .contacts {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+    visibility: inherit;
+  }
   @media screen and (min-width: 768px) {
     font-family: "Roboto";
     display: flex;
@@ -144,7 +158,11 @@
 }
 
 .contacts-list__email {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 768px) {
+    visibility: inherit;
     position: relative;
     display: flex;
     font-family: "Roboto";
@@ -166,7 +184,11 @@
   }
 }
 .contacts-list__icon-email {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 768px) {
+    visibility: inherit;
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
@@ -181,7 +203,11 @@
   }
 }
 .contacts-list__phone {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 768px) {
+    visibility: inherit;
     display: flex;
     font-family: "Roboto";
     font-weight: 500;
@@ -201,7 +227,11 @@
   }
 }
 .contacts-list__icon-phone {
+  @media screen and (min-width: 480px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 768px) {
+    visibility: inherit;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
