@@ -36,8 +36,8 @@
   @media screen and (min-width: 480px) {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
+    margin-right: -15px;
+    margin-left: -15px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -61,12 +61,12 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     flex-basis: calc(100% / 2 - 30px);
-    &:nth-child(2n) {
-      margin-right: 0;
-    }
-    &:nth-last-child(-n + 2) {
-      margin-bottom: 0;
-    }
+    // &:nth-child(2n) {
+    //   margin-right: 0;
+    // }
+    // &:nth-last-child(-n + 2) {
+    //   margin-bottom: 0;
+    // }
     &:hover {
       border-color: #2196f3;
       cursor: pointer;
@@ -75,15 +75,15 @@
   @media screen and (min-width: 768px) {
     width: 226px;
     height: 92px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     flex-basis: calc(100% / 3 - 30px);
-    &:nth-child(3n) {
-      margin-right: 0;
-    }
-    &:nth-last-child(-n + 3) {
-      margin-bottom: 0;
-    }
+    // &:nth-child(3n) {
+    //   margin-right: 0;
+    // }
+    // &:nth-last-child(-n + 3) {
+    //   margin-bottom: 0;
+    // }
   }
   @media screen and (min-width: 1200px) {
     display: flex;
