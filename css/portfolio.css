@@ -452,7 +452,7 @@ ul {
   color: var(--second-text-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .footer-section {
     font-family: "Roboto";
     background-color: #2f303a;
@@ -462,13 +462,15 @@ ul {
 }
 
 @media screen and (min-width: 1200px) {
-  .logo-footer {
-    display: flex;
-    margin-bottom: 20px;
+  .footer-section {
+    font-family: "Roboto";
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .adress__link {
     font-family: "Roboto";
     font-style: normal;
@@ -481,7 +483,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .adress__contact {
     font-family: "Roboto";
     font-style: normal;
@@ -493,14 +495,22 @@ ul {
   }
 }
 
+@media screen and (min-width: 480px) {
+  .adress__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .adress__item:not(:last-child) {
     margin-bottom: 9px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .logo-footer {
+    display: block;
+    margin-bottom: 20px;
     font-family: "Oleo Script", cursive;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -513,13 +523,20 @@ ul {
 }
 
 @media screen and (min-width: 1200px) {
+  .logo-footer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .container-row {
     display: flex;
     flex-direction: row;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .footer-social-links {
     display: flex;
     flex-direction: column;
@@ -528,7 +545,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .footer-social-links__title {
     font-family: "Roboto";
     font-style: normal;
@@ -552,7 +569,7 @@ ul {
   fill: #ffffff;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .footer-social-links__list {
     display: flex;
     flex-direction: row;
@@ -582,21 +599,28 @@ ul {
   border-radius: 50%;
 }
 
+@media screen and (min-width: 480px) {
+  .subscription {
+    margin-top: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .subscription {
     margin-left: 93px;
     margin-right: auto;
     padding-top: 12px;
+    margin-top: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .subscription__text {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
@@ -610,7 +634,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .subscription__form {
     width: 358px;
     height: 50px;
@@ -623,7 +647,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .subscription__form-text {
     font-family: Roboto;
     font-weight: 400;
@@ -632,10 +656,11 @@ ul {
     align-items: center;
     letter-spacing: 0.03em;
     color: #ffffff;
+    padding-left: 16px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .subscription__button {
     font-family: "Roboto";
     font-weight: 700;
@@ -668,7 +693,7 @@ ul {
   fill: #ffffff;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) {
   .subscription__form-input {
     font-family: Roboto;
     font-weight: 400;

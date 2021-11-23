@@ -1,5 +1,9 @@
 .footer-section {
   @media screen and (min-width: 480px) {
+    font-family: "Roboto";
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   @media screen and (min-width: 768px) {
   }
@@ -16,16 +20,10 @@
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
-    display: flex;
-    margin-bottom: 20px;
   }
 }
 .adress__link {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -35,13 +33,13 @@
     color: #ffffff;
     margin-bottom: 9px;
   }
-}
-.adress__contact {
-  @media screen and (min-width: 480px) {
-  }
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+  }
+}
+.adress__contact {
+  @media screen and (min-width: 480px) {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -50,9 +48,14 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 .adress__item:not(:last-child) {
   @media screen and (min-width: 480px) {
+    margin-bottom: 8px;
   }
   @media screen and (min-width: 768px) {
   }
@@ -63,10 +66,8 @@
 
 .logo-footer {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
+    display: block;
+    margin-bottom: 20px;
     font-family: "Oleo Script", cursive;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -75,6 +76,12 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     text-decoration: none;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-bottom: 20px;
   }
 }
 .container-row {
@@ -89,23 +96,19 @@
 }
 .footer-social-links {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
     padding-top: 12px;
   }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .footer-social-links__title {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -115,6 +118,10 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
 .footer-social-links__icon {
@@ -127,12 +134,12 @@
 }
 .footer-social-links__list {
   @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: row;
   }
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-direction: row;
   }
 }
 .footer-social-links__name {
@@ -157,6 +164,7 @@
 }
 .subscription {
   @media screen and (min-width: 480px) {
+    margin-top: 60px;
   }
   @media screen and (min-width: 768px) {
   }
@@ -164,23 +172,24 @@
     margin-left: 93px;
     margin-right: auto;
     padding-top: 12px;
+    margin-top: 0;
   }
 }
 .subscription__text {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
 .subscription__window {
@@ -194,10 +203,6 @@
 }
 .subscription__form {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     width: 358px;
     height: 50px;
     background: transparent;
@@ -207,13 +212,13 @@
     border-radius: 4px;
     margin-right: 12px;
   }
-}
-.subscription__form-text {
-  @media screen and (min-width: 480px) {
-  }
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+  }
+}
+.subscription__form-text {
+  @media screen and (min-width: 480px) {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -221,14 +226,15 @@
     align-items: center;
     letter-spacing: 0.03em;
     color: #ffffff;
-  }
-}
-.subscription__button {
-  @media screen and (min-width: 480px) {
+    padding-left: 16px;
   }
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1200px) {
+  }
+}
+.subscription__button {
+  @media screen and (min-width: 480px) {
     font-family: "Roboto";
     font-weight: 700;
     font-size: 16px;
@@ -249,6 +255,10 @@
       cursor: pointer;
     }
   }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .subscription__button-text {
@@ -261,10 +271,6 @@
 
 .subscription__form-input {
   @media screen and (min-width: 480px) {
-  }
-  @media screen and (min-width: 768px) {
-  }
-  @media screen and (min-width: 1200px) {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -276,5 +282,9 @@
     width: 358px;
     height: 50px;
     border: none;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
   }
 }
