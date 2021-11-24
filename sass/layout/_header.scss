@@ -241,19 +241,16 @@
   width: 100vw;
   height: 100vh;
   position: fixed;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
   // z-index: 100;
   // top: 0;
   // left: 0;
   // padding: 48px 48px;
   background-color: #fff;
 }
-.mobile-menu__container.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
+.mobile-menu__container.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .icon-cross {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
