@@ -11,8 +11,17 @@
   background-color: var(--second-title-color);
   flex-grow: 1;
   background-repeat: no-repeat;
-  background-size: center;
+  background-size: cover;
   background-position: center;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/heroe-mobile-2x.jpg);
+  }
   @media screen and (min-width: 768px) {
     width: 100%;
     background-image: linear-gradient(
@@ -25,8 +34,17 @@
     padding-bottom: 118px;
     padding-top: 118px;
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
     background-position: center;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/heroe-tablet-2x.jpg);
+    }
   }
   @media screen and (min-width: 1200px) {
     width: 100%;
@@ -34,14 +52,23 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/heroe-background.jpg);
+      url(../images/heroe-desctop.jpg);
     background-color: var(--second-title-color);
     flex-grow: 1;
     padding-bottom: 200px;
     padding-top: 200px;
     background-repeat: no-repeat;
-    background-size: center;
+    background-size: cover;
     background-position: center;
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/heroe-desctop-2x.jpg);
+    }
   }
 }
 
