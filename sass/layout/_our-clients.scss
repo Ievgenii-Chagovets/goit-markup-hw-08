@@ -22,14 +22,6 @@
   }
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
   }
 }
 .our-clients__list {
@@ -42,6 +34,8 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: nowrap;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 .our-clients__item {
@@ -93,18 +87,15 @@
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    margin-left: 0;
+    margin-right: 0;
     justify-content: center;
     align-items: center;
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    // &:not(:last-child) {
-    //   margin-right: 30px;
     &:not(:last-child) {
       margin-right: 30px;
-    }
-    &:nth-child(6n) {
-      margin-right: 0;
     }
     &:hover {
       border-color: #2196f3;

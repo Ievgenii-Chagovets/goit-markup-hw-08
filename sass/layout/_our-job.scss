@@ -1,6 +1,9 @@
 .our-job {
-  display: flex;
-  padding-bottom: 94px;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    padding-bottom: 94px;
+  }
 }
 .our-job__text {
   font-family: "Roboto";
