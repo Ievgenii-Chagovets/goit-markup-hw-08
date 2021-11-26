@@ -14,6 +14,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  max-width: 480px;
+  height: 400px;
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -24,7 +26,7 @@
       url(../images/heroe-mobile-2x.jpg);
   }
   @media screen and (min-width: 768px) {
-    width: 100%;
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -48,7 +50,8 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    width: 100%;
+    max-width: 1600px;
+    height: 600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)

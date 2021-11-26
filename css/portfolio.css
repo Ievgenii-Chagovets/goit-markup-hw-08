@@ -334,6 +334,11 @@ ul {
   border-style: none;
 }
 
+.mobile-menu__button-open:hover, .mobile-menu__button-open:focus {
+  fill: #2196f3;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu__button-open {
     display: none;
@@ -342,8 +347,8 @@ ul {
 
 .mobile-menu__button-close {
   position: absolute;
-  top: 10;
-  right: 15;
+  top: 10px;
+  right: 15px;
   padding: 0;
   line-height: 0;
   background-color: transparent;
@@ -361,9 +366,14 @@ ul {
 .mobile-menu__navigation-section {
   display: flex;
   flex-direction: column;
+  padding-top: 48px;
+  padding-left: 40px;
 }
 
 .mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -405,6 +415,8 @@ ul {
 .mobile-menu__contact-section {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  padding-left: 40px;
 }
 
 .mobile-menu__contact-list {
@@ -433,6 +445,7 @@ ul {
 
 .mobile-menu__social-link-list {
   display: flex;
+  padding-bottom: 48px;
 }
 
 .mobile-menu__social-item:not(:last-child) {
@@ -655,7 +668,6 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .container-row {
-    display: flex;
     flex-direction: row;
   }
 }
@@ -693,35 +705,29 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .adress__link {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    margin-bottom: 9px;
-  }
+.adress__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 9px;
 }
 
-@media screen and (min-width: 480px) {
-  .adress__contact {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
+.adress__contact {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (min-width: 480px) {
-  .adress__item:not(:last-child) {
-    margin-bottom: 8px;
-  }
+.adress__item:not(:last-child) {
+  margin-bottom: 8px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -730,12 +736,10 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .footer-social-links {
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
+.footer-social-links {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1200px) {
@@ -744,18 +748,16 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .footer-social-links__title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
-  }
+.footer-social-links__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .footer-social-links__icon {
@@ -768,13 +770,11 @@ ul {
   fill: #ffffff;
 }
 
-@media screen and (min-width: 480px) {
-  .footer-social-links__list {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-bottom: 60px;
-  }
+.footer-social-links__list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -822,19 +822,17 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__text {
-    display: block;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
-  }
+.subscription__text {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -843,21 +841,19 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__form {
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    width: 358px;
-    height: 50px;
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    margin-bottom: 20px;
-  }
+.subscription__form {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 358px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -873,43 +869,40 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__form-text {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    padding-left: 16px;
-  }
+.subscription__form-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding-left: 16px;
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__button {
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    background-color: var(--accent-color);
-    width: 200px;
-    height: 50px;
-    border: 0px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .subscription__button:hover {
-    cursor: pointer;
-  }
+.subscription__button {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription__button:hover {
+  cursor: pointer;
 }
 
 .subscription__button-text {
@@ -921,19 +914,17 @@ ul {
   fill: #ffffff;
 }
 
-@media screen and (min-width: 480px) {
-  .subscription__form-input {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    background-color: transparent;
-    width: 358px;
-    height: 50px;
-    border: none;
-  }
+.subscription__form-input {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  border: none;
 }
 /*# sourceMappingURL=portfolio.css.map */
