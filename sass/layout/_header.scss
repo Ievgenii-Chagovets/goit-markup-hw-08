@@ -16,7 +16,9 @@
   }
 }
 .navigation {
-  display: flex;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
   @media screen and (min-width: 768px) {
     font-family: "Roboto";
     align-items: center;
@@ -31,9 +33,12 @@
   color: #2196f3;
 }
 .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-right: 276px;
+  margin-right: 286px;
   @media screen and (min-width: 768px) {
     margin-right: 88px;
     padding: 0;
@@ -210,6 +215,7 @@
 .mobile-menu__button-open {
   background-color: transparent;
   border-style: none;
+  padding: 0;
   &:hover,
   &:focus {
     fill: #2196f3;

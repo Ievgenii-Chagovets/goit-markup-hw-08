@@ -83,8 +83,10 @@ ul {
   }
 }
 
-.navigation {
-  display: flex;
+@media screen and (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -107,9 +109,12 @@ ul {
 }
 
 .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 16px;
   padding-bottom: 16px;
-  margin-right: 276px;
+  margin-right: 286px;
 }
 
 @media screen and (min-width: 768px) {
@@ -335,6 +340,7 @@ ul {
 .mobile-menu__button-open {
   background-color: transparent;
   border-style: none;
+  padding: 0;
 }
 
 .mobile-menu__button-open:hover, .mobile-menu__button-open:focus {
