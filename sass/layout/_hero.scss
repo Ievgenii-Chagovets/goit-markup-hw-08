@@ -10,7 +10,6 @@
     url(../images/heroe-mobile.jpg);
   background-color: var(--second-title-color);
   background-color: var(--second-title-color);
-  flex-grow: 1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -33,7 +32,6 @@
       ),
       url(../images/heroe-tablet.jpg);
     background-color: var(--second-title-color);
-    flex-grow: 1;
     padding-bottom: 118px;
     padding-top: 118px;
     background-repeat: no-repeat;
@@ -58,7 +56,6 @@
       ),
       url(../images/heroe-desctop.jpg);
     background-color: var(--second-title-color);
-    flex-grow: 1;
     padding-bottom: 200px;
     padding-top: 200px;
     background-repeat: no-repeat;
