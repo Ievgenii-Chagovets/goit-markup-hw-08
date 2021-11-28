@@ -591,6 +591,7 @@ ul {
 }
 
 .project-item {
+  display: block;
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
@@ -607,7 +608,7 @@ ul {
   cursor: pointer;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .project-item {
     width: 354px;
     margin-right: 30px;
