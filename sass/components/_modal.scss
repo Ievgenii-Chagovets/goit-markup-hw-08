@@ -10,14 +10,14 @@
   transition: opacity 250ms, visibility 250ms;
 }
 .modal-window {
-  width: 405px;
+  width: 450px;
   min-height: 609px;
   background-color: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: 1px solid #0000001a;
   border-radius: 5px;
   @media screen and (min-width: 768px) {
-    width: 405px;
+    min-height: 609px;
   }
   @media screen and (min-width: 1200px) {
     width: 528px;
@@ -62,10 +62,7 @@
   }
 }
 .contact-form {
-  padding: 20px 20px 20px 20px;
-  @media screen and (min-width: 1200px) {
-    padding: 40px 40px 40px 40px;
-  }
+  padding: 40px 40px 40px 40px;
 }
 .modal-title {
   font-family: Roboto;
@@ -167,7 +164,7 @@
   font-family: Roboto;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.14;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
   .checkbox__input:checked + & > .check-box__icon {
